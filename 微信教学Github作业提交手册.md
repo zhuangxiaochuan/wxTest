@@ -28,15 +28,28 @@
         c). 继续输入：git commit -m "第一次作业，提交图片"<br>
            本行输入正确，系统会在屏幕上提示最新修改的十个文件，因为不支持中文，你可能看到个别乱码，但没有影响<br>
         d). 由于本地Git仓库和Github仓库之间的传输是通过SSH加密的，所以连接时需要设置一下：首先创建SSH KEY。先看一下你C:\users\Admnistrator用户目录下有没有.ssh目录，有的话看下里面有没有id_rsa和id_rsa.pub这两个文件，有就跳到下一步，没有就通过下面命令创建:<br>
-         $ ssh-keygen -t rsa -C "youremail@example.com" <br>
-         **注意："youremail@example.com"是你注册github帐号的邮箱，命令行字母有区分大小写！！<br>**
-          然后一路回车。这时你就会在用户下的.ssh目录里找到id_rsa和id_rsa.pub这两个文件<br>
+        $ ssh-keygen -t rsa -C "youremail@example.com" <br>
+        **注意："youremail@example.com"是你注册github帐号的邮箱，命令行字母有区分大小写！！<br>**
+        然后一路回车。这时你就会在用户下的.ssh目录里找到id_rsa和id_rsa.pub这两个文件<br>
         e). 登录Github,找到右上角的图标，打开点进里面的Settings，再选中里面的SSH and GPG KEYS，点击右上角的New SSH key，然后Title里面随便填，再把刚才id_rsa.pub里面的内容复制到Title下面的Key内容框里面，最后点击Add SSH key，这样就完成了SSH Key的加密。<br>
-          
-          
-        继续输入：git push wx master<br>
-       
+        f) 继续输入：git push wx master<br>
+           第一次执行过程中会弹出登录窗口（git Login）,输入Github的帐号和密码即可，完成远程仓库的更新。<br>
+        g) 登录自己的GitHUB账户，查看自己的wxTest远程仓库的代码，可以发现已经与本地仓库一致，可以看到在github首页上wxtest仓库中images目录下已经有了10张的作业的图片。<br>
+        h) 下一步，提交作业到fjyazzy/wxTest的个人分支上。<br>
+        具体操作是，点"pull request"-"new pull request"按钮<br>
+        然后再新的页面上，"base目标分支，选择与自己座号一致的目标分支，head源分支不修改",点击“create pull request”按钮<br>
+         然后再新的页面上，"title位置"输入"第一次作业：收集微信小程序或APP首页设计"，点击"create pullrequest"按钮，即可完成本次作业<br>
+        
+   **4. 第二次作业提交(本次作业占期末总成绩5分)<br>**      
+     1). 作业内容：修改已下载项目APP首页<br>
+     2). 操作步骤：<br>     
+         a) 利用PS切割自己设计的微信小程序首页，导出为web格式。
+         b) 打开微信小程序开发工具，导入项目。
+         c) 设计拼接图片首页。
+         d) 测试运行正常后。
+         e) 调出git命令执行框（就是那个黑框框），输入命令：git add . (注意点不要漏了)<br>
+         f). 继续输入：git commit -m "第二次作业，提交首页"<br>
+         g) 继续输入：git push wx master ，完成远程仓库的更新。<br>
+         h) 登录自己的GitHUB账户，查看自己的wxTest远程仓库的代码，提交作业到fjyazzy/wxTest的个人分支上,提交方法和第一次作业一致。<br>
    
-   
-
 
