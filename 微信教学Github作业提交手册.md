@@ -6,6 +6,7 @@
    2). 搜索fjyazzy/wxTest 远程数据仓库。 （在github网站任意网页，点左上角的搜索框，输入 "fjyazzy/wxTest"）即可搜索<br>
    3). 找到fjyazzy/wxTest 远程数据仓库后，打开该仓库，点击页面右上角的"Fork" 按钮，即可克隆本仓库到自己的远程仓库。<br>
    4). 这里假设你的账号为fjyazzy163,那么你就拥有了fjyazzy163/wxTest这个远程代码仓库，目前这个仓库代码和fjyazzy/wxTest上面的代码完全一样。<br>
+   
 **2. 下载本地代码仓库管理<br>**
    1). 下载git-2.21.0-64-bit.exe<br>
    2). 一路next 安装git-2.21.0-64-bit.exe文件, 安装成功后，右键点任何文件夹，都会多出现一行菜单 "Git Bash Here"<br>
