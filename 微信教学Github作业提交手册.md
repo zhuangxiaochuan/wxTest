@@ -1,12 +1,12 @@
 ## 本手册用于以下班级提交作业之说明<br>
 ** 适用班级：计算机1732，计算机1733 <br>
 ---
-1. 注册Github<br>
+**1. 注册Github<br>**
    1). 登录https://github.com 注册自己的 gitHub帐号 。 (点首页sign up功能即可注册)<br>
    2). 搜索fjyazzy/wxTest 远程数据仓库。 （在github网站任意网页，点左上角的搜索框，输入 "fjyazzy/wxTest"）即可搜索<br>
    3). 找到fjyazzy/wxTest 远程数据仓库后，打开该仓库，点击页面右上角的"Fork" 按钮，即可克隆本仓库到自己的远程仓库。<br>
    4). 这里假设你的账号为fjyazzy163,那么你就拥有了fjyazzy163/wxTest这个远程代码仓库，目前这个仓库代码和fjyazzy/wxTest上面的代码完全一样。<br>
-2. 下载本地代码仓库管理<br>
+**2. 下载本地代码仓库管理<br>**
    1). 下载git-2.21.0-64-bit.exe<br>
    2). 一路next 安装git-2.21.0-64-bit.exe文件, 安装成功后，右键点任何文件夹，都会多出现一行菜单 "Git Bash Here"<br>
    3). 在你的D盘新建wxTest文件夹。<br>
@@ -15,7 +15,20 @@
    6). 在命令框中，首先输入:  git init<br>
    7). 执行完成后，会在wxTest文件夹里面，多出一个.git的文件夹<br>
    8). 继续输入： git remote add wx https://github.com/fjyazzy163/wxTest<br>
-      **特别注意： 要把命令行中的<font color=red>fjyazzy163</font>换成你的github帐号          
+      **特别注意： 要把命令行中的<font color=red>fjyazzy163</font>换成你的github帐号<br>**
+       本行输入完成后，系统没有任何提示,表示执行成功。<br>
+   9). 继续输入：git pull wx master<br>
+       git程序开始重服务器上下载代码，下载成功后就是一个完整的微信小程序项目代码。
+**3. 第一次作业提交(本次作业占期末总成绩5分)<br>**
+    1). 作业内容：收集10个微信小程序或者APP首页<br>
+    2). 操作步骤：<br>
+        a) 在各个网站收集10个微信小程序,然后分别以 "首页1.jpg", "首页2.jpg",... "首页10.jpg"的形式存放到d:\wxTest\images文件夹下面。<br>
+        b) 调出git命令执行框（就是那个黑框框），输入命令：git add . (注意点不要漏了)<br>
+           本行输入完成后，系统没有任何提示,表示执行成功。<br>
+        c) 继续输入：git commit -m "第一次作业，提交图片"<br>
+           本行输入正确，系统会在屏幕上提示最新修改的十个文件，因为不支持中文，你可能看到个别乱码，但没有影响<br>
+        d) 继续输入：git push wx master<br>
+       
    
    
 
