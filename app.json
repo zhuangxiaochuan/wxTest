@@ -6,7 +6,8 @@
     "pages/lists/lists",
     "pages/orders/orders",
     "pages/Login/login",
-    "pages/Tools/tools"
+    "pages/Tools/tools",
+    "pages/aboutus/aboutus"
   ],
   "window": {
     "backgroundTextStyle": "light",
